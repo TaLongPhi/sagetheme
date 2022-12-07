@@ -2,7 +2,7 @@
     <div class="flex justify-center xl:flex-row w-4/5  lg:flex-col md:flex-col">
         <div class="xl:w-2/5 flex-row mr-20 lg:w-full md:w-full">
             <div class="line-4 w-[186px] h-[2px] bg-red-600 mb-10"></div>
-            <h2 class="w-4/5 text-[36px] lg:w-full sm:w-full">
+            <h2 class="w-4/5 lg:w-full sm:w-full">
                 The Encompass Platform Seamlessly Connects the Supply
                 Chain, Allowing You to:
             </h2>
@@ -10,7 +10,7 @@
         <div class="flex xl:w-3/5 xl:flex-col  mt-[7px] w-full lg:flex-col md:w-full md:flex-col">
             <div class="flex xl:flex-row w-full lg:w-full lg:flex-row md:flex-col md:w-full">
                 <div class="w-1/2 mr-20 md:w-full">
-                    <h3 class="text-[24px]">
+                    <h3>
                         Drive Business Growth
                     </h3>
                     <p  class="font-[200] text-[18px]">
@@ -23,7 +23,7 @@
                     </p>
                 </div>
                 <div class="w-1/2 md:w-full">
-                    <h3 class="text-[24px]">
+                    <h3>
                         Leverage Real-Time Data for Better
                         Decision-Making
                     </h3>
@@ -39,7 +39,7 @@
             </div>
             <div class="flex xl:flex-row w-full lg:w-full lg:flex-row md:flex-col md:w-full">
                 <div class="w-1/2 mr-20 md:w-full">
-                    <h3 class="text-[24px]">
+                    <h3>
                         Improve Operational efficiencies
                     </h3>
                     <p class="font-[200] text-[18px] ">

@@ -33,6 +33,15 @@
                     "sub_fields": [],
                     "min": "",
                     "max": ""
+                },
+                "layout_63922a74acab0": {
+                    "key": "layout_63922a74acab0",
+                    "name": "two_col",
+                    "label": "Two Col",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
                 }
             },
             "button_label": "Add Module",
@@ -58,5 +67,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1669885940
+    "modified": 1670523508
 }

@@ -2,7 +2,7 @@
     <div class="flex justify-center xl:flex-row w-4/5  lg:flex-col md:flex-col">
         <div class="xl:w-2/5 flex-row mr-20 lg:w-full md:w-full">
             <div class="line-4 w-[186px] h-[2px] bg-red-600 mb-10"></div>
-            <h2 class="w-4/5 lg:w-full sm:w-full">
+            <h2 class="xl:w-4/5 lg:w-full sm:w-full">
                 The Encompass Platform Seamlessly Connects the Supply
                 Chain, Allowing You to:
             </h2>

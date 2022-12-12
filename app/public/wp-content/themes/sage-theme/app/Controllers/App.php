@@ -40,6 +40,7 @@ class App extends Controller
     {
         $logo = get_field('ns_header_logo', ACF_OPTION);
         $url = ($logo && $logo['url']) ? $logo['url'] : TEMPLATE_ASSETS_URL . '/images/logo.svg';
+        $url = ($logo && $logo['url']) ? $logo['url'] : TEMPLATE_ASSETS_URL . '/images/logo_sagetheme.svg';
         $alt = ($logo && $logo['alt']) ? $logo['alt'] : 'logo';
         $href = home_url();
         return compact('url', 'alt', 'href');

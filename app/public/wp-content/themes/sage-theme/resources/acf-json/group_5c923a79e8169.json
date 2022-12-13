@@ -42,6 +42,24 @@
                     "sub_fields": [],
                     "min": "",
                     "max": ""
+                },
+                "layout_6397fc8228a42": {
+                    "key": "layout_6397fc8228a42",
+                    "name": "banner",
+                    "label": "Banner",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6397ffb5368b0": {
+                    "key": "layout_6397ffb5368b0",
+                    "name": "grid",
+                    "label": "Grid",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
                 }
             },
             "button_label": "Add Module",
@@ -67,5 +85,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1670523508
+    "modified": 1670905781
 }

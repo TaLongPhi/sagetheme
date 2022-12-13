@@ -39,11 +39,23 @@ class App extends Controller
     public static function getLogo()
     {
         $logo = get_field('ns_header_logo', ACF_OPTION);
-        $url = ($logo && $logo['url']) ? $logo['url'] : TEMPLATE_ASSETS_URL . '/images/logo.svg';
         $url = ($logo && $logo['url']) ? $logo['url'] : TEMPLATE_ASSETS_URL . '/images/logo_sagetheme.svg';
         $alt = ($logo && $logo['alt']) ? $logo['alt'] : 'logo';
         $href = home_url();
         return compact('url', 'alt', 'href');
+    }
+
+    public static function getBanner()
+    {
+        $banner = get_field('ns_header_banner', ACF_OPTION);
+        $url = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/bg_Banner.png';
+        $Banner = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/bg_Banner.png';
+        $Business = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/imgbusiness/GroupAll.png';
+        $alt = ($banner && $banner['alt']) ? $banner['alt'] : 'banner';
+        $alt1 = ($banner && $banner['alt']) ? $banner['alt'] : 'business';
+        $href = home_url();
+        return compact('url', 'alt', 'href');
+        return compact('Banner', 'Business', 'alt', 'alt1', 'href');
     }
 
     public static function getFooterAddress()

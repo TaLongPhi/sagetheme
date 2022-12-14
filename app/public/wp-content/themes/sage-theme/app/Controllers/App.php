@@ -48,14 +48,23 @@ class App extends Controller
     public static function getBanner()
     {
         $banner = get_field('ns_header_banner', ACF_OPTION);
-        $url = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/bg_Banner.png';
-        $Banner = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/bg_Banner.png';
+        $url = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/img_banner/bg_Banner.png';
+        $Banner = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/img_banner/bg_Banner.png';
         $Business = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/imgbusiness/GroupAll.png';
         $alt = ($banner && $banner['alt']) ? $banner['alt'] : 'banner';
         $alt1 = ($banner && $banner['alt']) ? $banner['alt'] : 'business';
         $href = home_url();
         return compact('url', 'alt', 'href');
         return compact('Banner', 'Business', 'alt', 'alt1', 'href');
+    }
+
+    public static function getBannerR()
+    {
+        $bannerR = get_field('ns_header_banner', ACF_OPTION);
+        $url = ($bannerR && $bannerR['url']) ? $bannerR['url'] : TEMPLATE_ASSETS_URL . '/images/img_banner/BannerR.png';
+        $alt = ($bannerR && $bannerR['alt']) ? $bannerR['alt'] : 'bannerR';
+        $href = home_url();
+        return compact('url', 'alt', 'href');
     }
 
     public static function getFooterAddress()

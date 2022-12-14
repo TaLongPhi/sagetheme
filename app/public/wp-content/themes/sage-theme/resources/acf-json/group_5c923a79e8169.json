@@ -60,6 +60,15 @@
                     "sub_fields": [],
                     "min": "",
                     "max": ""
+                },
+                "layout_63991e6a29b51": {
+                    "key": "layout_63991e6a29b51",
+                    "name": "connecting",
+                    "label": "Connecting",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
                 }
             },
             "button_label": "Add Module",
@@ -85,5 +94,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1670905781
+    "modified": 1670979178
 }

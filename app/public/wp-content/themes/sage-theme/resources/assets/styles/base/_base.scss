@@ -61,7 +61,10 @@
   ul,
   blockquote,
   figure{
+    @apply font-light text-lg leading-6;
+    @apply font-light text-lg leading-7;
     margin: 0 0 15px;
+    font-size: 20px;
   }
 
   ol,
@@ -83,4 +86,5 @@
 
 a:not(.btn):not(.no-underline) {
   @apply text-brown-100 underline hover:no-underline;
+  @apply text-brown-100 no-underline hover:no-underline;
 }

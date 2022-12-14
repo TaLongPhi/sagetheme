@@ -7,8 +7,14 @@
     url('../fonts/icomoon.ttf?vm3twl') format('truetype'),
     url('../fonts/icomoon.woff?vm3twl') format('woff'),
     url('../fonts/icomoon.svg?vm3twl#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?3d0xbw');
+  src:  url('../fonts/icomoon.eot?3d0xbw#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?3d0xbw') format('truetype'),
+    url('../fonts/icomoon.woff?3d0xbw') format('woff'),
+    url('../fonts/icomoon.svg?3d0xbw#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
+  font-display: block;
 }
 
 .icomoon {

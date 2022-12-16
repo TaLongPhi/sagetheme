@@ -16,12 +16,12 @@
 
   h2,
   .h2 {
-    @apply text-[36px] font-bold md:text-h2-md;
+    @apply text-3xl font-bold md:text-h2-md;
   }
 
   h3,
   .h3 {
-    @apply text-[24px] font-bold md:text-h3-md;
+    @apply text-2xl font-bold md:text-h3-md;
   }
 
   h4,
@@ -86,5 +86,4 @@
 
 a:not(.btn):not(.no-underline) {
   @apply text-brown-100 underline hover:no-underline;
-  @apply text-brown-100 no-underline hover:no-underline;
 }

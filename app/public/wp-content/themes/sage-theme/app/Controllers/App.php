@@ -48,23 +48,25 @@ class App extends Controller
     public static function getBanner()
     {
         $banner = get_field('ns_header_banner', ACF_OPTION);
-        $url = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/img_banner/bg_Banner.png';
-        $Banner = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/img_banner/bg_Banner.png';
+        $BannerR = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/img_banner/banner.png';
+        $Banner = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/img_banner/bg_banner.png';
         $Business = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/imgbusiness/GroupAll.png';
         $alt = ($banner && $banner['alt']) ? $banner['alt'] : 'banner';
         $alt1 = ($banner && $banner['alt']) ? $banner['alt'] : 'business';
         $href = home_url();
-        return compact('url', 'alt', 'href');
-        return compact('Banner', 'Business', 'alt', 'alt1', 'href');
+        return compact('Banner', 'Business', 'BannerR', 'alt', 'alt1', 'href');
     }
 
-    public static function getBannerR()
+    public static function getIcon()
     {
-        $bannerR = get_field('ns_header_banner', ACF_OPTION);
-        $url = ($bannerR && $bannerR['url']) ? $bannerR['url'] : TEMPLATE_ASSETS_URL . '/images/img_banner/BannerR.png';
-        $alt = ($bannerR && $bannerR['alt']) ? $bannerR['alt'] : 'bannerR';
+        $icon = get_field('ns_header_Icon', ACF_OPTION);
+        $icon1 = ($icon && $icon['url']) ? $icon['url'] : TEMPLATE_ASSETS_URL . '/images/imgERP/icon1.svg';
+        $icon2 = ($icon && $icon['url']) ? $icon['url'] : TEMPLATE_ASSETS_URL . '/images/imgERP/icon2.svg';
+        $icon3 = ($icon && $icon['url']) ? $icon['url'] : TEMPLATE_ASSETS_URL . '/images/imgERP/icon3.svg';
+        $icon4 = ($icon && $icon['url']) ? $icon['url'] : TEMPLATE_ASSETS_URL . '/images/imgERP/icon4.svg';
+        $alt = ($icon && $icon['alt']) ? $icon['alt'] : 'icon';
         $href = home_url();
-        return compact('url', 'alt', 'href');
+        return compact('icon1', 'icon2', 'icon3', 'icon4', 'alt', 'href');
     }
 
     public static function getFooterAddress()

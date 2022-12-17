@@ -69,6 +69,42 @@
                     "sub_fields": [],
                     "min": "",
                     "max": ""
+                },
+                "layout_639db95e31a9a": {
+                    "key": "layout_639db95e31a9a",
+                    "name": "ecosystem",
+                    "label": "Ecosystem",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_639dbe04b8be3": {
+                    "key": "layout_639dbe04b8be3",
+                    "name": " three_icon",
+                    "label": "Three",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_639dbe3484819": {
+                    "key": "layout_639dbe3484819",
+                    "name": "lorem",
+                    "label": "Lorem",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_639dbe672ef9e": {
+                    "key": "layout_639dbe672ef9e",
+                    "name": "trusted",
+                    "label": "Trusted",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
                 }
             },
             "button_label": "Add Module",
@@ -94,5 +130,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1670979178
+    "modified": 1671282279
 }

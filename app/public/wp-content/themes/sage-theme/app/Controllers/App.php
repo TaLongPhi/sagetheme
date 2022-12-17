@@ -68,7 +68,15 @@ class App extends Controller
         $href = home_url();
         return compact('icon1', 'icon2', 'icon3', 'icon4', 'alt', 'href');
     }
-
+    
+    public static function getImg(){
+        $img=get_field('ns_header_Img', ACF_OPTION);
+        $imglast=($img && $img['url']) ? $img['url'] : TEMPLATE_ASSETS_URL . '/images/The-Lastest.jpg';
+        $imgcp=($img && $img['url']) ? $img['url'] : TEMPLATE_ASSETS_URL . '/images/compac.png';
+        $alt = ($img && $img['alt']) ? $img['alt'] : 'img';
+        $href = home_url();
+        return compact('imglast','imgcp');
+    }
     public static function getFooterAddress()
     {
         return get_field('ns_footer_address', ACF_OPTION);

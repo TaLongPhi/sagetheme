@@ -73,9 +73,16 @@ class App extends Controller
         $img=get_field('ns_header_Img', ACF_OPTION);
         $imglast=($img && $img['url']) ? $img['url'] : TEMPLATE_ASSETS_URL . '/images/The-Lastest.jpg';
         $imgcp=($img && $img['url']) ? $img['url'] : TEMPLATE_ASSETS_URL . '/images/compac.png';
+        $imgeco=($img && $img['url']) ? $img['url'] : TEMPLATE_ASSETS_URL . '/images/Ecosystem-gr.png';
+        $img2town=($img && $img['url']) ? $img['url'] : TEMPLATE_ASSETS_URL . '/images/trusted/2Towns_PreferredFullColorLogoPNG.png';
+        $imgadv=($img && $img['url']) ? $img['url'] : TEMPLATE_ASSETS_URL . '/images/trusted/Advance Beverage Company.png';
+        $imgapb=($img && $img['url']) ? $img['url'] : TEMPLATE_ASSETS_URL . '/images/trusted/APB-RH Barringer.png';
+        $imgrock=($img && $img['url']) ? $img['url'] : TEMPLATE_ASSETS_URL . '/images/trusted/Eagle Rock.png';
+        $imgfire=($img && $img['url']) ? $img['url'] : TEMPLATE_ASSETS_URL . '/images/trusted/firestone_logo_small1.png';
+        $imgwhi=($img && $img['url']) ? $img['url'] : TEMPLATE_ASSETS_URL . '/images/trusted/WhistlePig_Logo_Primary.png';
         $alt = ($img && $img['alt']) ? $img['alt'] : 'img';
         $href = home_url();
-        return compact('imglast','imgcp');
+        return compact('imglast','imgcp','imgeco','img2town','imgadv','imgapb','imgrock','imgfire','imgwhi','alt', 'href');
     }
     public static function getFooterAddress()
     {

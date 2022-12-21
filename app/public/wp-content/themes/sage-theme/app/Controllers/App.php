@@ -176,4 +176,9 @@ class App extends Controller
             return '';
         }
     }
+    public static function getNameModule($num)
+    {
+        $name = "module" . $num ;
+        return $name;
+    }
 }

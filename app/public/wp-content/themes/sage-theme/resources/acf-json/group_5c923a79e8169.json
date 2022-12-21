@@ -64,6 +64,15 @@
                     "min": "",
                     "max": ""
                 },
+                "layout_63a33ab0d5567": {
+                    "key": "layout_63a33ab0d5567",
+                    "name": "demo2",
+                    "label": "Demo2",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
                 "layout_63886ff44af05": {
                     "key": "layout_63886ff44af05",
                     "name": "test",
@@ -115,5 +124,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1671554574
+    "modified": 1671641848
 }
